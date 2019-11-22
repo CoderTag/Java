@@ -1,0 +1,40 @@
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.nio.Buffer;
+
+public class FileCreateAndWrite {
+
+	public static void main(String[] args) {
+		// Write To a File
+		try {
+			File fd = new File("filename.txt");
+			if (!fd.exists()) {
+				fd.createNewFile();
+			}
+			
+			PrintWriter wc = new PrintWriter(fd);
+			wc.println("The new line");
+			wc.println(1000);
+			wc.close();					// Check here we close the PrintWriter object not file Object
+			System.out.println("Done");
+		}
+		catch(Exception e) {
+			System.out.println("Caught Exception");
+		}
+		
+		// Read from a File
+		try {
+			BufferReader rd = new BufferReader(new FileReader("filename.txt"));
+			
+		}
+		catch(IOException e) {
+			
+		}
+		
+		
+
+	}
+
+}

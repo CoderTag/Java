@@ -1,0 +1,20 @@
+package Practice;
+
+class Cal implements Calc{
+	public int add(int a, int b) {
+		return a+b;
+	}
+	public int mul(int a, int b) {
+		return a*b;
+	}
+}
+
+public class MyInterface {
+
+	public static void main(String[] args) {
+		Calc inst = new Cal();
+		System.out.println(inst.add(5, 4));
+
+	}
+
+}

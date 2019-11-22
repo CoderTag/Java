@@ -1,0 +1,20 @@
+Access Levels:
+Modifier		Class	Package	Subclass	World
+public			Y		Y		Y			Y
+protected		Y		Y		Y			N
+no modifier		Y		Y		N			N
+private			Y		N		N			N
+
+Final
+--------
+A final class can not be subclass
+A final method can not be overridden by subclass (method overloading not possible)
+A final variable initialize only once
+
+Interface & Class
+-----------------
+Interface Class use implements
+class class use extends
+Interface Interface use extends
+
+

@@ -1,0 +1,17 @@
+package Practice;
+
+public class StringManupulation {
+
+	public static void main(String[] args) {
+		String str = "The rain water harvesting";
+		
+		System.out.println(str.charAt(5));
+		System.out.println(str.length());
+		System.out.println(str.indexOf('r'));
+		System.out.println(str.indexOf('r',9));
+		System.out.println(str.indexOf('r',str.indexOf('r')+1));
+		
+
+	}
+
+}

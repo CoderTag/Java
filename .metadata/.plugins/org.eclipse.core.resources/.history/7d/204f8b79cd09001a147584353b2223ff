@@ -1,0 +1,9 @@
+package com.auto.pageObjects;
+
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage {
+
+		WebDriver driver;
+		
+}

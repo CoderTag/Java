@@ -1,0 +1,43 @@
+package Practice;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		int num = 4;
+		
+		findPrimeNumbers(num);
+	}
+	
+	public static void findPrimeNumbers(int num) {
+		if(num<=1) System.out.print("not prime");;
+		if(num==2)
+		{
+			System.out.println(num);
+		}
+		else {
+			//System.out.println("NUM"+num);
+			for(int i=2;i<=num;i++)
+			{
+				if(i==2)
+				{
+					System.out.println(num);
+					continue;
+				}				
+				int count =0;
+				for(int j=2;j<i;j++)
+				{
+					if(i%j ==0)
+					{
+						count+=1;
+						break;
+					}					
+				}
+				if(count!= 0) System.out.println(i);
+				
+			}
+		}
+		
+		
+	}
+
+}

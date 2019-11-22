@@ -1,0 +1,25 @@
+class Calc{
+	int i;
+	int j;	
+	int result;
+	
+	public void add()
+	{
+		result = i + j;
+	}
+}
+
+
+public class ObjectIntro {
+
+	public static void main(String args[]) {
+		
+		Calc obj = new Calc();
+		obj.i = 2;
+		obj.j = 3;
+		System.out.println(obj.result);
+		obj.add();
+		System.out.println(obj.result);
+	}
+
+}

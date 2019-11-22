@@ -1,0 +1,16 @@
+package Practice;
+
+public class RemoveJunkCharecterString {
+
+	public static void main(String[] args) {
+		String s = "$#@$@$!@$#@%@$% My %$#%#% name is $#@#$ Antony age #$%# 34";
+		
+		s = s.replaceAll("[^a-zA-Z0-9 ]", "");
+		System.out.println(s);
+		s = s.replace("  ", " ");
+		System.out.println(s);
+		s = s.replaceFirst("[ ]", "");
+		System.out.println(s);
+	}
+
+}

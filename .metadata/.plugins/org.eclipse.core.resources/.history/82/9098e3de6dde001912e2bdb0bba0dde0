@@ -1,0 +1,22 @@
+package Practice;
+
+class ABC {
+	static String str;
+	public ABC(String str) {
+		this.str = str;		
+	}
+	
+	public void get() {
+		System.out.println(this.str);
+	}
+}
+
+
+public class MyStatic {
+
+	public static void main(String[] args) {
+		ABC inst = new ABC("R");
+		inst.get();
+	}
+
+}

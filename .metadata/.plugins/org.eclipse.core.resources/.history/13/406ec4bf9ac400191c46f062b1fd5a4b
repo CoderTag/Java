@@ -1,0 +1,23 @@
+package Practice;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		String s = "aSelenium";
+		String s2 = "Aselenium";
+		String rev = "";
+		int ar[] = {1,2,3,4};
+		
+		
+		for(int l=s.length()-1;l>=0;l--) {
+			rev = rev + s.charAt(l);
+		}
+		System.out.println(rev);
+		System.out.println(s.compareToIgnoreCase(s2));
+		System.out.println(s.compareTo(s2));
+		System.out.println(s.concat(s2));
+		System.out.println(s.contains("am"));
+		
+	}
+
+}

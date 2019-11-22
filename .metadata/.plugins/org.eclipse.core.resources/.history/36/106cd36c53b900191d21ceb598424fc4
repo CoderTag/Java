@@ -1,0 +1,12 @@
+package demo.com;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class LaunchTheBrowser {
+
+	public static void main(String[] args)
+	{
+		System.setProperty("webdriver.firefox.marionette", "/home/kaushik/PROGRAMMING/Selenium/driver/geckodriver");
+		FirefoxDriver driver = new FireforxDriver();
+	}
+}

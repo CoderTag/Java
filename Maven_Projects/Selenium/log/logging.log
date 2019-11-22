@@ -1,0 +1,24 @@
+2019-11-20 16:02:18 [main] INFO  BaseClass:71  - Browser Opened
+2019-11-20 16:02:18 [main] INFO  VerifyNewEntrarLogin:30  - Created Login Page object
+2019-11-20 16:02:33 [main] INFO  VerifyNewEntrarLogin:33  - Logged into the dashboard
+2019-11-20 16:02:33 [main] INFO  VerifyNewEntrarLogin:38  - Title Matched
+2019-11-20 17:15:30 [main] INFO  BaseClass:71  - Browser Opened
+2019-11-20 17:15:30 [main] INFO  VerifyNewEntrarLogin:30  - Created Login Page object
+2019-11-20 17:15:42 [main] INFO  VerifyNewEntrarLogin:33  - Logged into the dashboard
+2019-11-20 17:15:42 [main] INFO  VerifyNewEntrarLogin:38  - Title Matched
+2019-11-20 18:28:27 [main] INFO  BaseClass:71  - Browser Opened
+2019-11-20 18:28:27 [main] INFO  VerifyNewEntrarLogin:30  - Created Login Page object
+2019-11-20 18:28:36 [main] INFO  VerifyNewEntrarLogin:33  - Logged into the dashboard
+2019-11-20 18:28:36 [main] INFO  VerifyNewEntrarLogin:38  - Title Matched
+2019-11-21 00:39:55 [main] INFO  BaseClass:71  - Browser Opened
+2019-11-21 00:39:55 [main] INFO  VerifyNewEntrarLogin:30  - Created Login Page object
+2019-11-21 00:40:05 [main] INFO  VerifyNewEntrarLogin:33  - Logged into the dashboard
+2019-11-21 00:40:05 [main] INFO  VerifyNewEntrarLogin:38  - Title Matched
+2019-11-21 00:43:44 [main] INFO  BaseClass:71  - Browser Opened
+2019-11-21 00:43:44 [main] INFO  VerifyNewEntrarLogin:30  - Created Login Page object
+2019-11-21 00:43:52 [main] INFO  VerifyNewEntrarLogin:33  - Logged into the dashboard
+2019-11-21 00:43:52 [main] INFO  VerifyNewEntrarLogin:38  - Title Matched
+2019-11-21 00:58:06 [main] INFO  BaseClass:71  - Browser Opened
+2019-11-21 00:58:06 [main] INFO  VerifyNewEntrarLogin:30  - Created Login Page object
+2019-11-21 00:58:15 [main] INFO  VerifyNewEntrarLogin:33  - Logged into the dashboard
+2019-11-21 00:58:15 [main] INFO  VerifyNewEntrarLogin:38  - Title Matched

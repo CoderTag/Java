@@ -1,0 +1,18 @@
+package Selenium.webdriver.basictests;
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class FirstTest {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.firefox.marionette","/home/kaushik/PROGRAMMING/Selenium/driver/geckodriver");
+//		FirefoxDriver driver = new FirefoxDriver();  
+		//---> Or initiate driver as follow both will work
+		WebDriver driver = new FirefoxDriver();
+		driver.quit();
+	}
+
+}

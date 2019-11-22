@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Function Tests(failed)">
+    <parameter name="userid" value="Makohon"/>
+    <parameter name="url" value="http://www.google.com"/>
+    <classes>
+      <class name="com.test.TestNGDependsOnMethod">
+        <methods>
+          <include name="twoTest"/>
+          <include name="threeTest"/>
+          <include name="oneTest"/>
+        </methods>
+      </class> <!-- com.test.TestNGDependsOnMethod -->
+      <class name="com.test.TestNGGoogle">
+        <methods>
+          <include name="twoTest"/>
+          <include name="setUp"/>
+          <include name="mailLinkTest"/>
+          <include name="googleLogoTest"/>
+          <include name="tearDown"/>
+          <include name="oneTest"/>
+          <include name="googleTitleTest"/>
+          <include name="threeTest"/>
+        </methods>
+      </class> <!-- com.test.TestNGGoogle -->
+    </classes>
+  </test> <!-- Function Tests(failed) -->
+</suite> <!-- Failed suite [com.test] -->

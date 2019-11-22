@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package com.entrar.testCases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.auto.utilities.BrowserFactory;
+import com.entrar.Pages.NewLoginPage;
+
+/**
+ * @author kaushik
+ *
+ */
+public class VerifyNewEntrarLogin {
+	public static WebDriver driver;
+	
+	@Parameters({"url","browser"})
+	@BeforeMethod
+	public void setup(String url,String browser) {
+		driver = BrowserFactory.startBrowser(browser, url);
+	}
+	
+	@AfterMethod
+	public void cleanup() {
+		driver.close();
+	}	
+	
+	@Parameters({"Username","Password"})
+	@Test
+	public void newLoginTest(String userid, String password) {
+		//Using Page object using page factory
+		NewLoginPage login_page = new NewLoginPage(driver);
+//		NewLoginPage login_page = PageFactory.initElements(driver, NewLoginPage.class);
+		login_page.login(userid, password);
+		String expectedTitle = "School Management Web Application";
+		String actualTitle = driver.getTitle();
+		Assert.assertEquals(expectedTitle,actualTitle);
+	}
+}

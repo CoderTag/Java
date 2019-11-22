@@ -1,0 +1,14 @@
+package Practice;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		String s = "Selenium";
+		int ar[] = {1,2,3,4};
+		
+		System.out.println(ar.length);
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Test Maven Suite" verbose="1" >
+  
+  	
+  	<parameter name="url" value="http://www.google.com"/>
+  	<parameter name="Username" value="Makohon"/>
+  	<parameter name="Password" value="Makohon"/>
+  	
+  	<test name="Functional Tests">
+    <!--  <classes>
+	    <class name="com.auto.DemoTest"/>
+    </classes> -->
+    
+    <packages>
+    	<package name="com.entrar.testCases"></package>
+    </packages>
+  </test>
+</suite>

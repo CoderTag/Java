@@ -1,0 +1,19 @@
+package Practice;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		String s = "Selenium";
+		String rev = "";
+		int ar[] = {1,2,3,4};
+		
+		
+		for(int l=s.length()-1;l>=0;l--) {
+			System.out.print(s.charAt(l));
+			rev = rev + s.charAt(l);
+		}
+		
+
+	}
+
+}

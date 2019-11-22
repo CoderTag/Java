@@ -1,0 +1,41 @@
+/*
+ * Inner Class
+ * 	- Member Class
+ *  - Static Class -- Check the accessing of static and inner class. For static class use Class name for member class use outer class obj
+ *  - Anonymous Class 
+ */
+
+class Outer{
+	int a;
+	void display() {
+		System.out.println("Outer");
+	}
+	
+	class Inner{		
+		void show() {
+			System.out.println("I am in Inner class");
+		}
+	}
+	
+	static class Inner2{
+		void show2() {
+			System.out.println("2nd Inner class");
+		}
+	}
+}
+
+
+public class InnerDemo {
+
+	public static void main(String[] args) {
+		Outer obj = new Outer();
+		obj.display();
+		
+		Outer.Inner obj2 = obj.new Inner();
+		obj2.show();
+		
+		Outer.Inner2 obj3 = new Outer.Inner2();
+		obj3.show2();
+	}
+
+}

@@ -1,0 +1,9 @@
+package demo.com;
+
+public class LaunchTheBrowser {
+
+	public static void main(String[] args)
+	{
+		
+	}
+}

@@ -1,0 +1,22 @@
+package Practice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class FindDuplicateInArr {
+
+	public static void main(String[] args) {
+		String s[] = {"Amul", "Nandini","Sudol","Kutkuti","Amul","Sudol"};
+		int i[] = {43,423,64,634,14,64,43,6464,785};
+		
+		//HashSet : Java collection stores unique value
+		Set<String> s2 = new HashSet<String>();
+		
+		for(String st: s) {
+			if(s2.add(st) == false) {
+				System.out.println("Duplicate: " + st);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Test Maven Suite" verbose="1" >
+  
+  	
+  
+  	
+  	<test name="Functional Tests">
+  		<parameter name="url" value="http://www.entrar.in/"/>
+  		<parameter name="browser" value="firefox"/> <!-- can try with chrome also -->  		  		
+  		<parameter name="Username" value="ABCD"/>
+  		<parameter name="Password" value="ABCD"/>
+  	
+  	
+    <classes>
+	    <class name="com.entrar.testCases.VerifyNewEntrarLogin"/>
+    </classes>
+    
+    <!-- <packages>
+    	<package name="com.entrar.testCases"></package>
+    </packages>-->
+  </test>
+</suite>

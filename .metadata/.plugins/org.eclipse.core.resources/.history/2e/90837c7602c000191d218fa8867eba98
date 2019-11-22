@@ -1,0 +1,37 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("hello");
+		int i =50_00_00;
+		double d = 5.5;
+		System.out.println(i);
+		System.out.println(d);
+		i=2;
+		switch(i)
+		{
+		case 1:
+			System.out.println("Case I");
+			break;
+		case 2:
+			System.out.println("Case II");
+			break;
+		default:
+			System.out.println("Default");
+		}
+		String str="abc";  // this support java version +1.6 above 
+		switch(str)
+		{
+		case "abc":
+			System.out.println("Case abc");
+			break;
+		case "bacd":
+			System.out.println("Case bcd");
+			break;
+		default:
+			System.out.println("Default");
+		}
+	}
+
+}
