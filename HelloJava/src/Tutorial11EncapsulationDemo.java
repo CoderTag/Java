@@ -1,0 +1,29 @@
+// Binding data with method is called Encapsulation
+class MyClass
+{
+	private int num1;
+	private int num2;
+	
+	public int getNum1() {
+		return num1;
+	}
+	public void setNum1(int num1) {
+		this.num1 = num1;
+	}
+	public int getNum2() {
+		return num2;
+	}
+	public void setNum2(int num2) {
+		this.num2 = num2;
+	}	
+}
+
+public class Tutorial11EncapsulationDemo {
+
+	public static void main(String[] args) {
+		MyClass obj = new MyClass();
+		obj.setNum1(5);
+		System.out.println(obj.getNum1());
+	}
+
+}
