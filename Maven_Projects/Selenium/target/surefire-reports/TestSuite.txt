@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 42.758 s <<< FAILURE! - in TestSuite
+com.entrar.testCases.VerifyNewEntrarLogin.newLoginTest  Time elapsed: 20.385 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timeout loading page after 20000ms
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'kaushik-Inspiron-5547', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '11.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191205184924, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 20591, moz:profile: /tmp/rust_mozprofile.GM8Eeh..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.0.0-37-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5ea0c815-c395-4e06-b7a2-eb3790315f34
+	at com.entrar.testCases.VerifyNewEntrarLogin.newLoginTest(VerifyNewEntrarLogin.java:32)
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="42.758" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/kaushik/eclipse-workspace/Maven_Projects/Selenium/target/test-classes:/home/kaushik/eclipse-workspace/Maven_Projects/Selenium/target/classes:/home/kaushik/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/home/kaushik/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/kaushik/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/kaushik/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/kaushik/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/kaushik/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/kaushik/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/kaushik/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/kaushik/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/kaushik/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/kaushik/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/kaushik/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/kaushik/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/kaushik/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/home/kaushik/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/kaushik/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/kaushik/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/kaushik/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/home/kaushik/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/home/kaushik/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/home/kaushik/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/kaushik/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/home/kaushik/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/home/kaushik/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/kaushik/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/home/kaushik/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/home/kaushik/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/home/kaushik/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/kaushik/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/kaushik/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/kaushik/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/kaushik/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/kaushik/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/kaushik/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/home/kaushik/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/kaushik/eclipse-workspace/Maven_Projects/Selenium/target/surefire/surefirebooter138331052104046745.jar /home/kaushik/eclipse-workspace/Maven_Projects/Selenium/target/surefire 2020-01-08T21-32-19_463-jvmRun1 surefire12913979405258943418tmp surefire_01917194079800481054tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/kaushik/eclipse-workspace/Maven_Projects/Selenium/target/test-classes:/home/kaushik/eclipse-workspace/Maven_Projects/Selenium/target/classes:/home/kaushik/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/home/kaushik/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/kaushik/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/kaushik/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/kaushik/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/kaushik/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/kaushik/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/kaushik/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/kaushik/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/kaushik/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/kaushik/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/kaushik/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/kaushik/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/kaushik/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/kaushik/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/home/kaushik/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/kaushik/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/kaushik/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/kaushik/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/home/kaushik/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/home/kaushik/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/home/kaushik/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/kaushik/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/home/kaushik/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/home/kaushik/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/kaushik/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/home/kaushik/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/home/kaushik/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/home/kaushik/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/kaushik/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/kaushik/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/kaushik/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/kaushik/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/kaushik/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/kaushik/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/home/kaushik/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/kaushik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/kaushik/eclipse-workspace/Maven_Projects/Selenium"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/kaushik/eclipse-workspace/Maven_Projects/Selenium/target/surefire/surefirebooter138331052104046745.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.5+10-post-Ubuntu-0ubuntu1.118.04"/>
+    <property name="user.name" value="kaushik"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.0.0-37-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/kaushik/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="user.dir" value="/home/kaushik/eclipse-workspace/Maven_Projects/Selenium"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="/home/kaushik/eclipse-workspace/Maven_Projects/Selenium/Drivers/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="11.0.5+10-post-Ubuntu-0ubuntu1.118.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="newLoginTest" classname="com.entrar.testCases.VerifyNewEntrarLogin" time="20.385">
+    <failure message="Timeout loading page after 20000ms&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;kaushik-Inspiron-5547&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;11.0.5&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191205184924, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 20591, moz:profile: /tmp/rust_mozprofile.GM8Eeh..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.0.0-37-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 5ea0c815-c395-4e06-b7a2-eb3790315f34" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Timeout loading page after 20000ms
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'kaushik-Inspiron-5547', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '11.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191205184924, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 20591, moz:profile: /tmp/rust_mozprofile.GM8Eeh..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.0.0-37-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5ea0c815-c395-4e06-b7a2-eb3790315f34
+	at com.entrar.testCases.VerifyNewEntrarLogin.newLoginTest(VerifyNewEntrarLogin.java:32)
+]]></failure>
+    <system-out><![CDATA[[TestNG] [WARN] Ignoring duplicate listener : com.entrar.utilities.Listener
+Browser Opened
+***************************************************************
+1578499355337 - Test Started: newLoginTest
+****************************************************************
+Created Login Page object
+(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+1578499355337 - Test Failed: newLoginTest
+(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+]]></system-out>
+    <system-err><![CDATA[1578499341752	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GM8Eeh557Gpc"
+1578499343143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1578499343143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1578499343143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1578499343143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1578499345980	Marionette	INFO	Listening on port 46319
+1578499346066	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jan 08, 2020 9:32:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+(/usr/lib/firefox/firefox:20684): dconf-WARNING **: 21:32:35.553: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://entrar.in/script/pagination/ui.spinner.js, line 98: TypeError: $.browser is undefined
+JavaScript error: https://entrar.in/, line 220: ReferenceError: click is not defined
+JavaScript error: https://entrar.in/script/menu/ddsmoothmenu.js, line 52: TypeError: $mainmenu.parent(...).get(...) is undefined
+]]></system-err>
+  </testcase>
+</testsuite>

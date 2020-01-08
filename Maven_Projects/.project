@@ -3,6 +3,7 @@
 	<name>Maven_Projects</name>
 	<comment></comment>
 	<projects>
+		<project>FirstSpringProj</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>
