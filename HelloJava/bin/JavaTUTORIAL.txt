@@ -18,3 +18,73 @@ class class use extends
 Interface Interface use extends
 
 
+In Java We have Access Modifier (not Access Specifier like c++)
+final,public,protected all these are modifiers.
+
+class
+-------- 
+Only modifier we can use with class is final, abstract and public
+We can not use private and protected with class. If haveing inner class then can use private. 
+Q. What is the difference between class A and public class A
+A- If we write only class A it will be called default class.
+
+package com.abc;
+class A{}
+
+package com.abc;
+public class ABC{
+	public static void main(String[] args){
+		A obj = new A();
+	}
+}
+
+We can create object of class A in ABC as both of the belongs to same package.
+if class A belongs to different package then we can not access it from ABC. In that case we have to define class A with public
+======================================================
+package com.bcd;
+public class A{
+	public int i;
+	int j;
+}
+
+package com.abc;
+import com.bcd.A
+public class ABC{
+	public static void main(String[] args){
+		A obj = new A();
+		obj.i = 10;		// No Error
+		obj.j = 11;		// Error as public modifier not used in class A for variable j. It is not accessible from outside package
+	}
+}
+=========================================================
+
+*****************************************************
+package com.abcd;
+public class A{
+	public void method1(){
+		method2();
+	}
+	private void method2(){
+		System.out.println("hi");
+	}
+}
+
+package com.abc;
+import com.abcd.A
+public class ABC{
+	public static void main(String[] args){
+		A obj = new A();
+		obj.method1();  // Can access method1 as it is public but not method2 as it is private.
+	}
+}
+
+Private 	: Can access from spefic class.
+Default 	: Can access from spefic class.
+Public		: Any class or package
+Protected	: Subsiding/child class
+
+*****************************************************
+
+
+
+

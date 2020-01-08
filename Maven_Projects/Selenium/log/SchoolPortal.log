@@ -1,5 +1,0 @@
-
-2019-11-20 01:57:50 [main] INFO  BaseClass:72  - Browser Opened
-2019-11-20 01:57:50 [main] INFO  VerifyNewEntrarLogin:30  - Created Login Page object
-2019-11-20 01:58:03 [main] INFO  VerifyNewEntrarLogin:33  - Logged into the dashboard
-2019-11-20 01:58:03 [main] INFO  VerifyNewEntrarLogin:38  - Title Matched

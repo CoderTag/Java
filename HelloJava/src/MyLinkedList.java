@@ -22,6 +22,7 @@ public class MyLinkedList {
 			System.out.print(iterator.next() + " ");
 		}
 		
+		System.out.println("");
 		// It will not print anything as iterator went to the last element in the list
 		while(iterator.hasNext()) {
 			System.out.print(iterator.next() + " ");
